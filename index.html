@@ -29,7 +29,7 @@
           >
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Studio</a>
+              <a class="nav-link current" href="./index.html">Studio</a>
             </li>
             <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
             <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
@@ -67,7 +67,7 @@
             <li class="features-item">
               <div class="strategy-container">
                 <svg class="strategy-icon" width="64" height="64"> 
-                  <use href="./images/strategy.svg"></use>
+                  <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
               <h3 class="features-subtitle subtitle">Strategy</h3>
@@ -79,7 +79,7 @@
             <li class="features-item">
               <div class="punctuality-container">
                 <svg class="punctuality-icon" width="64" height="64">
-                  <use href="./images/punctuality.svg"></use>
+                  <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
               <h3 class="features-subtitle subtitle">Punctuality</h3>
@@ -91,7 +91,7 @@
             <li class="features-item">
               <div class="diligence-container">
                 <svg class="diligence-icon" width="64" height="64">
-                  <use href="./images/diligence.svg"></use>
+                  <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
               <h3 class="features-subtitle subtitle">Diligence</h3>
@@ -103,7 +103,7 @@
             <li class="features-item">
               <div class="technologies-container">
                 <svg class="technologies-icon" width="64" height="64">
-                  <use href="./images/technologies.svg"></use>
+                  <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
               <h3 class="features-subtitle subtitle">Technologies</h3>
@@ -174,11 +174,12 @@
                 <h3 class="team-subtitle subtitle">Tom Ford</h3>
                 <p class="team-text text">Frontend Developer</p>
                 <ul class="header-soc-list">
-                  <a class="header-soc-link" href="https://www.instagram.com/" target="_blank">
-                    <svg class="header-soc-icon" width="16" height="16">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
+                  <li class="header-soc-item">
+                    <a class="header-soc-link" href="https://www.instagram.com/" target="_blank">
+                      <svg class="header-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="header-soc-item">
                     <a class="header-soc-link" href="https://www.twitter.com" target="_blank">
@@ -214,12 +215,13 @@
               <div class="team-bottom">
                 <h3 class="team-subtitle subtitle">Camila Garcia</h3>
                 <p class="team-text text">Marketing</p>
-                <ul class="header-soc-list">
-                <a class="header-soc-link" href="https://www.instagram.com/" target="_blank">
-                  <svg class="header-soc-icon" width="16" height="16">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
+              <ul class="header-soc-list">
+                <li class="header-soc-item">
+                  <a class="header-soc-link" href="https://www.instagram.com/" target="_blank">
+                    <svg class="header-soc-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="header-soc-item">
                   <a class="header-soc-link" href="https://www.twitter.com" target="_blank">
@@ -241,7 +243,8 @@
                       <use href="./images/icons.svg#icon-linkedin2"></use>
                     </svg>
                   </a>
-                </ul>
+                </li>
+              </ul>
               </div>
             </li>
             <li class="team-item">
@@ -374,7 +377,8 @@
     </main>
 
     <footer class="page-footer">
-      <div class="container">
+      <div class="container footer">
+        <div class="footer-text-wrap">
         <a class="logo footer-logo" href="./index.html"
           >Web<span class="logo-text">Studio</span></a
         >
@@ -415,6 +419,7 @@
             </a>
           </li>
         </ul>
+      </div>
       </div>
     </footer>
   </body>
