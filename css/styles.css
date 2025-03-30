@@ -201,7 +201,7 @@ img {
   border-radius: 4px;
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-title:hover,
@@ -336,7 +336,7 @@ border: 1px solid #8e8f99;
     background: #f4f4fd;
     justify-content: center;
     height: 112px;
-    z-index: 999;
+    
 }
 
 
@@ -370,7 +370,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-soc-list .header-soc-link:hover,
-header-soc-list .header-soc-link:focus {
+.header-soc-list .header-soc-link:focus {
   background-color: #404bbf;
   background-color: #404bbf;
 }
@@ -383,6 +383,7 @@ header-soc-list .header-soc-link:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  
 }
 
 .footer-soc-icon {
@@ -411,7 +412,7 @@ header-soc-list .header-soc-link:focus {
 }
 
 .footer-soc-list .footer-soc-link:hover,
-footer-soc-list .footer-soc-link:focus {
+.footer-soc-list .footer-soc-link:focus {
   background-color: #31D0AA;
   background-color: #31d0aa;
 }
