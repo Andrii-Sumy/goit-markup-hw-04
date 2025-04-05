@@ -329,12 +329,7 @@ img {
 }
 .header-soc-list {
   display: flex;
-  gap: 24px;
-  flex-shrink: 0;
-  align-self: flex-end;
-  width: 232px;
-  height: 40px;
-  margin-left: 16px;
+  gap: 24px; 
   margin-top: 8px;
   justify-content: center;
 }
